@@ -467,7 +467,6 @@ text-decoration-line: underline;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    align-items: center;
 }
 .card-goods-wrap {
     gap: 30px;
@@ -475,7 +474,7 @@ text-decoration-line: underline;
     padding-right: 50px;
     border: 80px solid var(--gray-200);
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
